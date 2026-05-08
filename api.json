@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/eilean-mor-lighthouse",
     "maintainers": [
       {
@@ -16,111 +16,298 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "eilean-mor-lighthouse",
-    "name": "Eilean Mor Lighthouse Mystery",
-    "aliases": [],
+    "name": "Eilean Mòr Lighthouse Mystery",
+    "aliases": [
+      { "name": "Flannan Isles Lighthouse Mystery", "region": "Scotland" },
+      { "name": "Disappearance of the Flannan Isles keepers" },
+      { "name": "Eilean Mòr disappearance", "language": "Scottish Gaelic" }
+    ],
     "category": "LOCATION",
-    "subcategory": "Unknown",
+    "subcategory": "Maritime mystery / unexplained disappearance",
     "tags": [
-      "folklore",
-      "mythology"
+      "scotland",
+      "lighthouse",
+      "missing-persons",
+      "1900",
+      "outer-hebrides",
+      "maritime-history",
+      "rogue-wave"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Eilean Mor Lighthouse mystery is one of the most enduring unsolved disappearances in maritime history.",
-      "full": "The Eilean Mor Lighthouse mystery is one of the most enduring unsolved disappearances in maritime history. On December 26, 1900, the relief vessel *Hesperus* arrived at the Flannan Isles lighthouse off the coast of Scotland to find all three lighthouse keepers—James Ducat, Thomas Marshall, and Donald MacArthur—had vanished without trace. The lighthouse was in order, the lamp was out, and a meal sat half-eaten on the table. Despite over 120 years of investigation, theorizing, and speculation, no definitive explanation has ever been established for what happened to the three men."
+      "summary": "The 1900 disappearance of three lighthouse keepers from the Flannan Isles Lighthouse on Eilean Mòr in the Outer Hebrides, Scotland — most plausibly attributable to a rogue wave during a severe storm.",
+      "full": "The Eilean Mòr (Flannan Isles) Lighthouse Mystery refers to the disappearance of three lighthouse keepers — James Ducat, Thomas Marshall, and Donald McArthur — from Eilean Mòr in the Flannan Isles, off the coast of Lewis in the Outer Hebrides of Scotland, in mid-December 1900. The lighthouse, designed by David Alan Stevenson and only commissioned a year earlier (first lit 7 December 1899), had been operating normally until the steamer SS Archtor noted that no light was showing on the night of 15 December 1900. The relief vessel NLB Hesperus reached the island on 26 December 1900 after weather delays; relief keeper Joseph Moore found the station empty, the lamp prepared but not lit, the entrance gate and door closed, and a meal not (as later legend held) overturned. Northern Lighthouse Board superintendent Robert Muirhead's official report, dated 8 January 1901, concluded that 'an extra large sea' had likely swept the keepers from the west landing while they attempted to secure equipment during a severe storm. The case was popularised internationally by Wilfrid Wilson Gibson's 1912 poem 'Flannan Isle', which introduced sensational embellishments (uneaten meal, overturned chair) that have persisted in popular retelling. The lighthouse was automated in 1971."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "'Eilean Mòr' is Scottish Gaelic for 'big island' — the largest of the seven Flannan Isles, on which the lighthouse stands. The Flannan Isles take their name from the 7th-century Irish saint Flannan.",
+      "meaning": "Eilean Mòr = 'big island'; Flannan Isles = 'isles of Saint Flannan'.",
+      "first_use": "Gaelic name attested in Scottish toponymy long before the lighthouse era; English-language usage standardised in 19th-century Admiralty charts."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "LOCATION",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Historical mystery / unexplained disappearance",
+      "subtype": "Maritime",
+      "variant": "Scottish Outer Hebrides"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "mary-celeste", "name": "Mary Celeste", "relationship": "similar", "description": "Iconic 19th-century unexplained ship abandonment" },
+      { "id": "bermuda-triangle", "name": "Bermuda Triangle", "relationship": "related", "description": "Generalised maritime-disappearance lore" },
+      { "id": "phantom-ships", "name": "Phantom Ships", "relationship": "related", "description": "Maritime mystery folklore" }
+    ]
   },
+
   "characteristics": {
     "physical": {
       "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "morphology": "Not applicable: this entry describes a historical event and location."
     },
     "abilities": [],
     "behavior": {
       "activity_period": "unknown",
       "disposition": "unknown",
-      "habitat_preference": []
+      "habitat_preference": ["remote North Atlantic island", "Scottish Outer Hebrides"]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Single location: Eilean Mòr (the largest of the Flannan Isles), about 32 km west of the Isle of Lewis in the Outer Hebrides of Scotland.",
+      "continents": ["Europe"],
+      "countries": ["United Kingdom"],
+      "regions": [
+        "Scotland",
+        "Outer Hebrides",
+        "Flannan Isles",
+        "Western Isles"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Flannan Isles Lighthouse, Eilean Mòr",
+        "location": {
+          "description": "Lighthouse on the summit of Eilean Mòr, the largest of the Flannan Isles",
+          "country": "United Kingdom",
+          "region": "Outer Hebrides, Scotland",
+          "coordinates": { "latitude": 58.2881, "longitude": -7.5881 }
+        },
+        "peak_period": "1899–1971",
+        "notes": "Lighthouse first lit 7 December 1899; site of the December 1900 disappearance; automated 1971."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1900-12-15",
+        "circa": false,
+        "source": "SS Archtor sighting reported to Cosmopolitan Line Steamers and Northern Lighthouse Board"
+      },
+      "peak_activity_periods": [
+        { "period": "December 1900", "description": "The disappearance and immediate aftermath" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Modern maritime history; not a folkloric tradition, though heavily mythologised by 20th-century literary retelling."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1899-12-07", "event": "Flannan Isles Lighthouse first lit", "significance": "Beginning of operations on Eilean Mòr", "source": "Northern Lighthouse Board records" },
+      { "date": "1900-12-07", "event": "Last logbook entry by the keepers", "significance": "Final routine record before the disappearance", "source": "Lighthouse logbook (Northern Lighthouse Board)" },
+      { "date": "1900-12-15", "event": "SS Archtor passes at night and notes the light is not showing", "significance": "First indication of an irregularity", "source": "Northern Lighthouse Board incident file" },
+      { "date": "1900-12-26", "event": "NLB tender Hesperus reaches Eilean Mòr after weather delays; relief keeper Joseph Moore discovers the station empty", "significance": "Discovery of the disappearance", "source": "Joseph Moore's statement; Hesperus log" },
+      { "date": "1900-12-29", "event": "Northern Lighthouse Board superintendent Robert Muirhead arrives to investigate", "significance": "Beginning of the official inquiry", "source": "NLB report by Muirhead" },
+      { "date": "1901-01-08", "event": "Muirhead submits his official report concluding the keepers were swept away by a rogue wave at the west landing while securing equipment", "significance": "Official explanation", "source": "Muirhead, R. (1901), Northern Lighthouse Board" },
+      { "date": "1912-01-01", "event": "Wilfrid Wilson Gibson publishes 'Flannan Isle'", "significance": "Establishes the popular embellished version (uneaten meal, overturned chair)", "source": "Gibson, W. W. (1912)" },
+      { "date": "1971-09-28", "event": "Flannan Isles Lighthouse automated", "significance": "End of human keeper presence on the island", "source": "Northern Lighthouse Board" }
+    ],
+    "modern_era": "The mystery remains a touchstone of Scottish maritime history, regularly revisited in literature, film (notably 'The Vanishing' / 'Keepers', 2018), music, and broadcast media. The leading scholarly explanation remains the rogue-wave hypothesis advanced by Robert Muirhead in 1901."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 1,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 1,
+      "debunked": 0,
+      "date_range": { "earliest": "1900-12-15", "latest": "1900-12-26" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "eilean-mor-1900",
+        "name": "Disappearance of the Flannan Isles keepers",
+        "date": { "value": "1900-12-15", "precision": "approximate" },
+        "location": {
+          "description": "Flannan Isles Lighthouse, Eilean Mòr, Outer Hebrides, Scotland",
+          "country": "United Kingdom",
+          "region": "Outer Hebrides",
+          "coordinates": { "latitude": 58.2881, "longitude": -7.5881, "precision": "approximate" }
+        },
+        "witnesses": {
+          "count": 1,
+          "types": ["Joseph Moore (relief keeper)", "Captain Jim Harvie of the NLB Hesperus", "Robert Muirhead (NLB superintendent)"],
+          "credibility_factors": ["Northern Lighthouse Board records", "Contemporary press coverage", "Detailed inquiry report"]
+        },
+        "description": "Three lighthouse keepers — James Ducat (principal), Thomas Marshall (second assistant), and Donald McArthur (occasional) — disappeared from the Flannan Isles Lighthouse on Eilean Mòr between 7 and 15 December 1900. Relief keeper Joseph Moore, arriving on the NLB Hesperus on 26 December, found the lamp out, the lighthouse otherwise tidy, the door and entrance gate closed, and one set of oilskins missing while another remained on its peg. Damage at the west landing crane (~33 m above sea level) — including a displaced iron railing and dislodged crane equipment — indicated extraordinary wave action.",
+        "conditions": {
+          "weather": "Severe Atlantic winter storms during the period in question",
+          "visibility": "Reduced; long dark evenings of mid-winter",
+          "time_of_day": "Likely afternoon, based on the unfinished evening duties",
+          "duration": "Single short incident"
+        },
+        "evidence": [
+          "Lighthouse logbook (last entry 7 December 1900)",
+          "Damage to the west landing crane and railings",
+          "Joseph Moore's statement",
+          "Robert Muirhead's NLB report (8 January 1901)"
+        ],
+        "credibility": {
+          "rating": "high",
+          "factors": [
+            "Multiple official records",
+            "Documented physical damage to the west landing",
+            "Subsequent investigations consistent with the original NLB conclusion"
+          ],
+          "notes": "The fact of the disappearance is fully verified; specific cause is best explained by a rogue wave at the west landing during storm conditions."
+        },
+        "sources": [
+          "Muirhead, R. (1901), Northern Lighthouse Board report",
+          "Joseph Moore (1900), keeper's statement"
+        ],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "eilean-mor-evidence-west-landing",
+        "type": "physical site",
+        "name": "Damage to the west landing",
+        "date": "1900-12",
+        "description": "Iron railings of the west landing bent, crane handrails twisted, large rocks displaced, and lifebuoy ropes torn — all approximately 33 m above sea level.",
+        "location": "West landing, Eilean Mòr, Flannan Isles, Scotland",
+        "status": "verified",
+        "analysis": "Documented in Robert Muirhead's NLB report; cited as direct evidence of an extraordinary wave reaching the landing during the disappearance window.",
+        "source": "Muirhead, R. (1901), NLB report"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "eilean-mor-evidence-muirhead-1901",
+        "type": "official report",
+        "name": "NLB report on the Flannan Isles disappearance",
+        "date": "1901-01-08",
+        "description": "Robert Muirhead's report for the Northern Lighthouse Board concluding that the keepers were swept from the west landing by an exceptionally large sea.",
+        "status": "verified",
+        "analysis": "Foundational documentary record; the leading explanation of the disappearance.",
+        "source": "Northern Lighthouse Board archives"
+      },
+      {
+        "id": "eilean-mor-evidence-logbook",
+        "type": "logbook",
+        "name": "Flannan Isles lighthouse logbook (1899–1900)",
+        "description": "Lighthouse logbook with final routine entry on 7 December 1900; no subsequent record before discovery on 26 December.",
+        "status": "verified",
+        "analysis": "Provides the temporal envelope for the disappearance; widely cited as evidence against the most sensational embellishments.",
+        "source": "Northern Lighthouse Board archives"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Supernatural disappearance / sea-spirit",
+        "description": "Folkloric attributions to sea spirits, sea horses, or otherworldly forces — popularised by Gibson's 1912 poem rather than by witness testimony.",
+        "proponents": ["Folkloric / popular culture"],
+        "evidence_cited": ["Embellished details (uneaten meal, overturned chair) introduced by Gibson"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Rogue wave at the west landing (Muirhead, 1901)",
+        "description": "An exceptionally large wave struck the west landing while two keepers (Ducat and Marshall) were working there to secure equipment; a third (McArthur) ran out without oilskins to assist and was also swept away.",
+        "proponents": ["Robert Muirhead", "Northern Lighthouse Board", "Modern maritime historians (Mike Dash, John Love)"],
+        "evidence_cited": ["Damage to the landing 33 m above sea level", "Missing oilskins consistent with two keepers having gone outside", "Severe storm record"]
+      },
+      {
+        "name": "Disagreement, accident, or murder",
+        "description": "Less well-supported hypotheses involve a violent dispute among the keepers ending in mutual death, or an accidental fall combined with rescue attempts.",
+        "proponents": ["Various 20th-century commentators"],
+        "evidence_cited": ["Slim evidence; no contemporaneous indication of conflict"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "No mystery beyond a violent storm",
+        "description": "All key evidence is consistent with a single severe storm event combining rogue-wave action, landing-area exposure, and the keepers' duty cycle; popular embellishments are 20th-century literary inventions.",
+        "proponents": ["Mike Dash", "John Love", "Northern Lighthouse Board"],
+        "evidence_cited": ["1900 logbook record", "1901 Muirhead report", "Documented landing damage"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Flannan Isles taboo tradition: shepherds visiting the islands historically observed prohibitions on certain words and actions; some commentators link this background to the popular sense of mystery"
+      ],
+      "stories": [
+        "Wilfrid Wilson Gibson, 'Flannan Isle' (1912)",
+        "Modern retellings drawing on Gibson's embellishments"
+      ],
+      "beliefs": "Local Hebridean tradition treats the Flannan Isles as a place of taboo; the lighthouse mystery sits within this older substratum, though the events themselves are documented historical fact."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "'Flannan Isle' (poem) — Wilfrid Wilson Gibson (1912)",
+        "'The Vanishing of the Flannan Light' — Mike Dash (Smithsonian Magazine, 2017)",
+        "'The Lighthouse Stevensons' — Bella Bathurst (1999) [contextual]"
+      ],
+      "film_tv": [
+        "'The Vanishing' / 'Keepers' (2018), directed by Kristoffer Nyholm",
+        "Multiple BBC documentary segments on Scottish maritime history"
+      ],
       "games": [],
-      "other": []
+      "music": [
+        "'The Lighthouse' — opera by Peter Maxwell Davies (1980)"
+      ],
+      "other": [
+        "Gibson's 'Flannan Isle' is a staple of UK secondary-school poetry anthologies"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Robert Muirhead", "affiliation": "Northern Lighthouse Board (superintendent)", "contribution": "Lead investigator and author of the 1901 official report", "period": "1900–1901" },
+      { "name": "Mike Dash", "affiliation": "Independent historian / Smithsonian Magazine", "contribution": "Modern documentary work on the Flannan Isles disappearance", "period": "2010s–2020s" },
+      { "name": "John Love", "affiliation": "Independent historian", "contribution": "Comprehensive treatment in 'A Natural History of St Kilda' and Flannan Isles material", "period": "1980s–2000s" }
+    ],
+    "organizations": [
+      { "name": "Northern Lighthouse Board", "url": "https://www.nlb.org.uk", "focus": "Operational and archival authority for Scottish lighthouses including the Flannan Isles" },
+      { "name": "National Library of Scotland", "url": "https://www.nls.uk", "focus": "Archive of relevant 1900–1901 newspapers and NLB papers" }
+    ],
+    "ongoing_studies": "No active scientific investigation; ongoing historical research focuses on archival records held by the Northern Lighthouse Board and contemporary press coverage."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "muirhead-1901", "type": "archive", "title": "Report on the Flannan Isles Lighthouse keepers' disappearance", "authors": ["Robert Muirhead"], "publication": "Northern Lighthouse Board", "date": "1901-01-08" },
+    { "id": "gibson-1912", "type": "book", "title": "Flannan Isle (in 'Fires')", "authors": ["Wilfrid Wilson Gibson"], "publication": "Elkin Mathews, London", "date": "1912" },
+    { "id": "dash-smithsonian", "type": "article", "title": "The Vanishing of the Flannan Lighthouse Keepers", "authors": ["Mike Dash"], "publication": "Smithsonian Magazine", "date": "2017", "url": "https://www.smithsonianmag.com" },
+    { "id": "nlb-flannan", "type": "website", "title": "Flannan Isles Lighthouse — Northern Lighthouse Board", "url": "https://www.nlb.org.uk/lighthouses/flannan-isles", "accessed": "2026-05-07" },
+    { "id": "wikipedia-flannan", "type": "website", "title": "Flannan Isles Lighthouse", "url": "https://en.wikipedia.org/wiki/Flannan_Isles_Lighthouse", "accessed": "2026-05-07" }
+  ]
 }
